@@ -52,6 +52,6 @@
     }
 
 
-[Cubux.Country]: ../type/country.md
-[Cubux.User]: ../type/user.md
+[Cubux.Country]: ../type/global/country.md
+[Cubux.User]: ../type/user/user.md
 [scopes]: ../auth/scopes.md
