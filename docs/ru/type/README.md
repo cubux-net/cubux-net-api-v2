@@ -5,7 +5,7 @@
 ----------
 
 *   [Примитивные](primitive.md)
-*   `Cubux`
+*   Cubux.*
     *   [Публичные данные](global/README.md)
     *   [Данные пользователя](user/README.md)
     *   [Данные команды](team/README.md)
