@@ -1,0 +1,32 @@
+Тип `Cubux.Sync.Ticket`
+=======================
+
+Объект со следующими полями:
+
+Поле            | Тип            | Описание
+--------------- | -------------- | --------
+`uuid`          | `uuid`         | UUID
+`status`        | `enum("new", "work", "done", "aborted", "failed")` | Статус
+`status_changed_at` | `datetime` | Время последнего изменения статуса
+`errors` | `Array:`[`Cubux.Sync.ObjectErrors`][Cubux.Sync.ObjectErrors], NULL | Ошибки в отправленых изменениях
+`client_serial` | `uint64`, NULL | Значение поля `serial` из пакета отправленных данных [`Cubux.Sync.DataPatch`][Cubux.Sync.DataPatch] для нужд клиента
+`created_at`    | `datetime`     | Время создания тикета
+
+
+#### Статусы тикета `status`
+
+Статус    | Описание
+--------- | --------
+`new`     | Тикет создан, обработка ещё не начата
+`work`    | Идет обработка
+`done`    | Обработка успешно завершена
+`aborted` | Отработка отклонена. Встречается только при [отправке изменений][api-submit] в случае ошибок во входных данных. Следует провести анализ ошибок, указаных в поле `errors`.
+`failed`  | Сбой на сервере при обработке тикета
+
+Если статусы `new` и `work` держится слишком долго, то, вероятно, на
+сервере созникли проблемы.
+
+
+[api-submit]: ../../sync/api/submit.md
+[Cubux.Sync.DataPatch]: data-patch.md
+[Cubux.Sync.ObjectErrors]: object-errors.md

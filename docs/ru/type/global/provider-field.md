@@ -14,8 +14,8 @@
 `options`        | `Array:`[`Cubux.ProviderFieldOption`][Cubux.ProviderFieldOption], NULL | Список вариантов для полей `select`
 
 
-*Замечание:* Поля `hidden` указаны лишь у провайдеров с режимом `mode` равным
-`oauth`.
+**Замечание:** Поля `hidden` указаны лишь у провайдеров с режимом `mode`
+равным `"oauth"`.
 
 
 [Cubux.ProviderFieldOption]: provider-field-option.md
