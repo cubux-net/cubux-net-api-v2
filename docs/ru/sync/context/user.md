@@ -4,7 +4,7 @@
 .                 | .
 ----------------- | -------------------------
 Базовый адрес API | `/api/v2/sync/user`
-Тип данных        | [`Cubux.Sync.UserData`][Cubux.Sync.UserData]
+Словарь объектов  | [`Cubux.Sync.UserData`][Cubux.Sync.UserData]
 
 **ВАЖНО:** Требуется авторизация токеном с [разрешением][scopes]:
 `UserActivity`.

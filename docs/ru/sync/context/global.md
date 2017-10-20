@@ -4,7 +4,7 @@
 .                 | .
 ----------------- | ---------------------------
 Базовый адрес API | `/api/v2/sync/global`
-Тип данных        | [`Cubux.Sync.GlobalData`][Cubux.Sync.GlobalData]
+Словарь объектов  | [`Cubux.Sync.GlobalData`][Cubux.Sync.GlobalData]
 
 Публичные данные доступны только для чтения. Аутентификация не
 требуется.

@@ -4,7 +4,7 @@
 .                 | .
 ----------------- | --------------------------------
 Базовый адрес API | `/api/v2/sync/team/<uuid-команды>`
-Тип данных        | [`Cubux.Sync.TeamData`][Cubux.Sync.TeamData]
+Словарь объектов  | [`Cubux.Sync.TeamData`][Cubux.Sync.TeamData]
 
 **ВАЖНО:** Требуется авторизация токеном с [разрешением][scopes]:
 `UserActivity`.
