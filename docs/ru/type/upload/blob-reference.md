@@ -1,0 +1,2 @@
+Тип `Cubux.Upload.BlobReference`
+================================

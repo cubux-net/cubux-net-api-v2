@@ -11,6 +11,7 @@
     *   [Командные](context/team.md)
 *   [Сценарии сеансов синхронизации](03-scenarios.md)
 *   [Ход сеанса синхронизации](04-workflow.md)
+*   [Загрузка файлов](10-uploads.md)
 *   [API](api/README.md)
     *   [Запрос снапшота](api/snapshot.md)
     *   [Запрос разницы](api/diff.md)
