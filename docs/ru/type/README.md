@@ -13,6 +13,7 @@
     *   Все по алфавиту
         *   [`Cubux.Account`](team/account.md)
         *   [`Cubux.AccountAccess`](team/account-access.md)
+        *   [`Cubux.AUser`](a-user.md)
         *   [`Cubux.Bank`](global/bank.md)
         *   [`Cubux.Budget`](team/budget.md)
         *   [`Cubux.Category`](team/category.md)
@@ -20,6 +21,7 @@
         *   [`Cubux.Currency`](global/currency.md)
         *   [`Cubux.CurrencyRate`](global/currency-rate.md)
         *   [`Cubux.Draft`](team/draft.md)
+        *   [`Cubux.Invite`](invite.md)
         *   [`Cubux.LoanAgent`](team/loan-agent.md)
         *   [`Cubux.LoanHistory`](team/loan-history.md)
         *   [`Cubux.MyTeam`](user/team.md)
@@ -38,6 +40,6 @@
         *   [`Cubux.Upload.BlobReference`](upload/blob-reference.md)
         *   [`Cubux.Upload.Init`](upload/init.md)
         *   [`Cubux.Upload.Params`](upload/params.md)
-        *   [`Cubux.User`](user/user.md)
+        *   [`Cubux.User`](user.md)
         *   [`Cubux.UserMessage`](user/user-message.md)
         *   [`Cubux.ValidationError`](validation-error.md)
