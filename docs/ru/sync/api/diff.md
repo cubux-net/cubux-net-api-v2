@@ -22,7 +22,7 @@ GET <context-url>/since/<revision-uuid>
 Запрос:
 
     GET /api/v2/sync/user/since/372cf009-992e-471d-ab13-59ac428e062e HTTP/1.1
-    Host: www.cubux.net
+    Host: app.cubux.net
     Authorization: Bearer bd21026244e41a126d69f15ea9d1ac76579f69e3
 
 Ответ, данные уже были готовы ранее:

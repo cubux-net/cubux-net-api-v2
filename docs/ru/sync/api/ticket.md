@@ -19,7 +19,7 @@ GET <context-url>/ticket/<ticket-uuid>
 Запрос:
 
     GET /api/v2/sync/user/ticket/bc7a1c11-e972-4268-bb85-b348b1745d5a HTTP/1.1
-    Host: www.cubux.net
+    Host: app.cubux.net
     Authorization: Bearer bd21026244e41a126d69f15ea9d1ac76579f69e3
 
 Ответ, сбор данных завершен:

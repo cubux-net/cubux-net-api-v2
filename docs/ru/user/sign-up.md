@@ -27,7 +27,7 @@
 Запрос:
 
     POST /api/v2/sign-up HTTP/1.1
-    Host: www.cubux.net
+    Host: app.cubux.net
     Authorization: Bearer bd21026244e41a126d69f15ea9d1ac76579f69e3
     Content-Type: application/json; charset=UTF-8
     Content-Length: 97

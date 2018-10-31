@@ -40,7 +40,7 @@
 Запрос:
 
     POST /oauth2/token HTTP/1.1
-    Host: www.cubux.net
+    Host: app.cubux.net
     Content-Type: application/json; charset=UTF-8
     Content-Length: 114
 
@@ -70,7 +70,7 @@
 Запрос:
 
     POST /oauth2/token HTTP/1.1
-    Host: www.cubux.net
+    Host: app.cubux.net
     Content-Type: application/json; charset=UTF-8
     Content-Length: 114
 

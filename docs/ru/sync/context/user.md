@@ -23,7 +23,7 @@
 объекта `me`:
 
     POST /api/v2/sync/user HTTP/1.1
-    Host: www.cubux.net
+    Host: app.cubux.net
     Authorization: Bearer 617babbbee3cbe4ee28e8c440d405be3c39ea2bd
     Content-Type: application/json; charset=UTF-8
     Content-Length: 134
@@ -42,7 +42,7 @@
 [`Cubux.MyTeam`][Cubux.MyTeam] в списке объектов `teams`:
 
     POST /api/v2/sync/user HTTP/1.1
-    Host: www.cubux.net
+    Host: app.cubux.net
     Authorization: Bearer 617babbbee3cbe4ee28e8c440d405be3c39ea2bd
     Content-Type: application/json; charset=UTF-8
     Content-Length: 297
