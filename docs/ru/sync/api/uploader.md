@@ -41,7 +41,6 @@ POST <context-url>/uploader
 
     {
         "uri":     "https://file.cubux.net/api/upload?...",
-        "method":  "PUT",
         "expires": "2017-10-19T06:21:47Z"
     }
 

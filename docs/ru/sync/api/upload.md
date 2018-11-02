@@ -4,11 +4,11 @@
 Подробнее о механике загрузки файлов см. [Загрузка файлов][uploads].
 
 В ответе на запрос [подготовки загрузки][uploader] содержится объект
-[`Cubux.Upload.Params`][Cubux.Upload.Params], содержащий URI адрес и
-HTTP метод для выполнения данного запроса:
+[`Cubux.Upload.Params`][Cubux.Upload.Params], содержащий URI адрес
+для выполнения данного запроса:
 
 ```
-<method> <uri> HTTP/1.1
+PUT <uri> HTTP/1.1
 Content-Type: application/octet-stream
 Content-Length: ...
 ```
@@ -45,7 +45,6 @@ Content-Length: ...
 
     {
         "uri":     "https://file.cubux.net/api/upload?...",
-        "method":  "PUT",
         "expires": "2017-10-19T06:21:47Z"
     }
 
