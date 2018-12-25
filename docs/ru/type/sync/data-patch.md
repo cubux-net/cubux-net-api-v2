@@ -9,7 +9,7 @@
 
 Поле              | Тип            | Описание
 ----------------- | -------------- | --------
-`objects`         | `object`, NULL | Словарь обновленных и созданых объектов данного контекста
+`objects`         | [`Cubux.Sync.GlobalData`][Cubux.Sync.GlobalData], [`Cubux.Sync.TeamData`][Cubux.Sync.TeamData], [`Cubux.Sync.UserData`][Cubux.Sync.UserData], NULL | Словарь обновленных и созданых объектов данного контекста
 `deleted_objects` | `object`, NULL | Словарь удалений объектов данного контекста
 `serial`          | `uint64`, NULL | Произвольное число для нужд разработчика. Значение будет фигурировать в ответном [тикете][ticket] в поле `client_serial`.
 
@@ -55,3 +55,6 @@
 [api-submit]: ../../sync/api/submit.md
 [ticket]: ticket.md
 [Cubux.Sync.DataDiff]: data-diff.md
+[Cubux.Sync.GlobalData]: ./data-global.md
+[Cubux.Sync.TeamData]: ./data-team.md
+[Cubux.Sync.UserData]: ./data-user.md
