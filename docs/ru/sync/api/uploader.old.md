@@ -1,5 +1,8 @@
-Подготовка загрузки файлов
-==========================
+Подготовка загрузки файлов (устаревший способ)
+==============================================
+
+> **Важно!** Этот способ является устаревшим и оставлен для обратной
+> совместимости. Используйте актуальную [загрузку изображений][upload-image].
 
 Подробнее о механике загрузки файлов см. [Загрузка файлов][uploads].
 
@@ -45,9 +48,10 @@ POST <context-url>/uploader
     }
 
 
-[api-upload]: upload.md
+[api-upload]: upload.old.md
 [http]: https://tools.ietf.org/html/rfc7231
-[uploads]: ../10-uploads.md
+[upload-image]: ./upload-image.md
+[uploads]: ../10-uploads.old.md
 [Cubux.Upload.Init]: ../../type/upload/init.md
 [Cubux.Upload.Params]: ../../type/upload/params.md
 [Cubux.ValidationError]: ../../type/validation-error.md

@@ -1,7 +1,7 @@
 Тип `Cubux.Sync.Response`
 =========================
 
-Ответ на запросы основного АПИ.
+Ответ на запросы основного API.
 
 Объект со следующими полями:
 
@@ -20,6 +20,7 @@
 [Разница][api-diff]     | 202 | [`Cubux.Sync.Ticket`][Cubux.Sync.Ticket] | NULL
 [Разница][api-diff]     | 204 | — | —
 [Отправка][api-submit]  | 202 | [`Cubux.Sync.Ticket`][Cubux.Sync.Ticket] | NULL
+[Загрузка изображения][api-upload-image] | 202 | [`Cubux.Sync.Ticket`][Cubux.Sync.Ticket] | NULL
 
 Ниже отдельно приведены варианты успешных ответов `200` на
 [запрос по тикету][api-ticket]. Здесь поле `ticket` всегда заполнено
@@ -33,12 +34,14 @@
 [Снапшот][api-snapshot] | `"done"` | [`Cubux.Sync.Data`][Cubux.Sync.Data]
 [Разница][api-diff]     | `"done"` | [`Cubux.Sync.DataDiff`][Cubux.Sync.DataDiff]
 [Отправка][api-submit]  | `"done"` | NULL
+[Загрузка изображения][api-upload-image] | `"done"` | NULL
 
 
 [api-diff]: ../../sync/api/diff.md
 [api-snapshot]: ../../sync/api/snapshot.md
 [api-submit]: ../../sync/api/submit.md
 [api-ticket]: ../../sync/api/ticket.md
+[api-upload-image]: ../../sync/api/upload-image.md
 [Cubux.Sync.Data]: data.md
 [Cubux.Sync.DataDiff]: data-diff.md
 [Cubux.Sync.Ticket]: ticket.md

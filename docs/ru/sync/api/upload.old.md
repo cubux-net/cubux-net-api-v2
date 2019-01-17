@@ -1,5 +1,8 @@
-Загрузка файла
-==============
+Загрузка файла (устаревший способ)
+==================================
+
+> **Важно!** Этот способ является устаревшим и оставлен для обратной
+> совместимости. Используйте актуальную [загрузку изображений][upload-image].
 
 Подробнее о механике загрузки файлов см. [Загрузка файлов][uploads].
 
@@ -18,7 +21,7 @@ Content-Length: ...
 
 Код | Тело | Описание
 --- | ---- | --------
-200 | [`Cubux.Upload.BlobReference`][Cubux.Upload.BlobReference] | Объект содержит код, который можно использовать в данных основного АПИ для ссылки на этот файл
+200 | [`Cubux.Upload.BlobReference`][Cubux.Upload.BlobReference] | Объект содержит код, который можно использовать в данных основного API для ссылки на этот файл
 401 | — | Срок жизни данных аутентификации устарел (данные содержатся в URI) либо они неверны. Необходимо повторить запрос [подготовки загрузки][uploader].
 422 | `Array:`[`Cubux.ValidationError`][Cubux.ValidationError] | Отправленый файл не соответствуют требованиям. Ошибки можно показать пользователю согласно ТЗ клиента.
 
@@ -69,8 +72,9 @@ Content-Length: ...
 
 [http]: https://tools.ietf.org/html/rfc7231
 [limitations]: ../20-limitations.md
-[uploader]: uploader.md
-[uploads]: ../10-uploads.md
+[upload-image]: ./upload-image.md
+[uploader]: ./uploader.old.md
+[uploads]: ../10-uploads.old.md
 [Cubux.Upload.BlobReference]: ../../type/upload/blob-reference.md
 [Cubux.Upload.Params]: ../../type/upload/params.md
 [Cubux.ValidationError]: ../../type/validation-error.md

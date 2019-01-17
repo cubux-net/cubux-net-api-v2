@@ -4,6 +4,6 @@
 Содержание
 ----------
 
-*   [`Cubux.MyTeam`](team.md)
-*   [`Cubux.User`](user.md)
+*   [`Cubux.MyTeam`](./team.md)
+*   [`Cubux.Me`](./me.md)
 *   [`Cubux.UserMessage`](user-message.md)
