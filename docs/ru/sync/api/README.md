@@ -28,5 +28,10 @@ API запросы синхронизации
 *   [Подготовка загрузки файлов](uploader.old.md)
 *   [Загрузка файла](upload.old.md)
 
+Экспорт
+-------
+
+*   [Экспорт в Excel](export-xls.md)
+
 
 [context]: ../02-context.md
