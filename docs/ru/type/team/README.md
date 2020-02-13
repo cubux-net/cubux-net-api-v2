@@ -23,7 +23,6 @@
 *   [`Cubux.TargetReserveTransaction`](target-reserve-transaction.md)
 *   [`Cubux.TeamInfo`](info.md)
 *   [`Cubux.TeamSubscription`](subscription.md)
-*   [`Cubux.TeamUser`](team-user.md)
 *   [`Cubux.Transaction`](transaction.md)
 *   [`Cubux.TransferExtra`](transfer-extra.md)
 *   [`Cubux.UserBacklog`](user-backlog.md)

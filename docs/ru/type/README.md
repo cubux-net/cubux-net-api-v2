@@ -53,7 +53,6 @@
         *   [`Cubux.TargetReserveTransaction`](team/target-reserve-transaction.md)
         *   [`Cubux.TeamInfo`](team/info.md)
         *   [`Cubux.TeamSubscription`](team/subscription.md)
-        *   [`Cubux.TeamUser`](team/team-user.md)
         *   [`Cubux.Transaction`](team/transaction.md)
         *   [`Cubux.TransferExtra`](team/transfer-extra.md)
         *   [`Cubux.Upload.BlobReference`](upload/blob-reference.md)

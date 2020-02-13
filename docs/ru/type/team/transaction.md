@@ -38,6 +38,7 @@
 **\*3)** Существует возможность объединить две транзакции прихода
 и расхода в одну транзакцию перевода и разделить транзакцию перевода
 на приход и расход. \[TBW]
+См. также [`Cubux.TransferExtra`][Cubux.TransferExtra].
 
 **\*4)** \[TBW]
 
@@ -63,3 +64,4 @@
 [Cubux.Account]: account.md
 [Cubux.Project]: project.md
 [Cubux.TeamInfo]: info.md
+[Cubux.TransferExtra]: transfer-extra.md
