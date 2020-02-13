@@ -38,8 +38,8 @@
 
 
 [context-team]: ../../sync/context/team.md
-[Cubux.Account]: ../team/account.md
 [Cubux.AccountAccess]: ../team/account-access.md
+[Cubux.Account]: ../team/account.md
 [Cubux.Budget]: ../team/budget.md
 [Cubux.Category]: ../team/category.md
 [Cubux.Draft]: ../team/draft.md
@@ -48,18 +48,18 @@
 [Cubux.LoanHistory]: ../team/loan-history.md
 [Cubux.LoanStatus]: ../team/loan-status.md
 [Cubux.Participant]: ../team/participant.md
-[Cubux.Plan]: ../team/plan.md
 [Cubux.PlanConfirm]: ../team/plan-confirm.md
+[Cubux.Plan]: ../team/plan.md
 [Cubux.Project]: ../team/project.md
 [Cubux.ReceiptPosition]: ../team/receipt-position.md
 [Cubux.Receipt]: ../team/receipt.md
-[Cubux.Target]: ../team/target.md
-[Cubux.TargetReserveTransaction]: ../team/target-reserve-transaction.md
-[Cubux.TransferExtra]: ../team/transfer-extra.md
-[Cubux.Transaction]: ../team/transaction.md
-[Cubux.TeamInfo]: ../team/info.md
-[Cubux.TeamSubscription]: ../team/subscription.md
-[Cubux.UserBacklog]: ../team/user-backlog.md
-[Cubux.Sync.Data]: data.md
 [Cubux.Sync.DataDiff]: data-diff.md
 [Cubux.Sync.DataPatch]: data-patch.md
+[Cubux.Sync.Data]: data.md
+[Cubux.TargetReserveTransaction]: ../team/target-reserve-transaction.md
+[Cubux.Target]: ../team/target.md
+[Cubux.TeamInfo]: ../team/info.md
+[Cubux.TeamSubscription]: ../team/subscription.md
+[Cubux.Transaction]: ../team/transaction.md
+[Cubux.TransferExtra]: ../team/transfer-extra.md
+[Cubux.UserBacklog]: ../team/user-backlog.md

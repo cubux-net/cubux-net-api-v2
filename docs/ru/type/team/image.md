@@ -11,11 +11,11 @@
 `purpose` | `enum("account", "category", "loan_agent", "draft", "target")` | Тип исходного объекта, для которого предназначено изображение
 `size_type` | `enum("icon", "photo")`    | Тип размера (см. ниже)
 `has_body`  | `boolean`                  | Флаг
-`file_size` | `uint64`, NULL             | 
-`file_type` | `enum("jpg", "png")`, NULL | 
-`width`     | `uint16`, NULL             | 
-`height`    | `uint16`, NULL             | 
-`created_at`| `datetime`
+`file_size` | `uint64`, NULL             | Размер файла в байтах
+`file_type` | `enum("jpg", "png")`, NULL | Тип файла
+`width`     | `uint16`, NULL             | Ширина изображения в писелах
+`height`    | `uint16`, NULL             | Высота изображения в пискелах
+`created_at`| `datetime`                 | Дата и время создания
 
 **Важно!** Объект изображения может быть создан, но не может быть
 изменён.
@@ -23,3 +23,7 @@
 
 ### Тип размера `size_type`
 
+Для каждого типа объектов в `purpose` используется свой тип размера в `size_type`:
+
+*   `icon`: для типов `"account"`, `"category"`, `"loan_agent"` и `"target"`;
+*   `photo`: для типа `"draft"`.
