@@ -19,6 +19,7 @@
 `budgets`        | `Array:`[`Cubux.Budget`][Cubux.Budget] | Бюджет
 `categories`     | `Array:`[`Cubux.Category`][Cubux.Category] | Категории
 `drafts`         | `Array:`[`Cubux.Draft`][Cubux.Draft] | Чеки
+`goods`          | `Array:`[`Cubux.Good`][Cubux.Good] | Справочник товаров для списка покупок
 `images`         | `Array:`[`Cubux.Image`][Cubux.Image] | Изображения
 `loan_agents`    | `Array:`[`Cubux.LoanAgent`][Cubux.LoanAgent] | Долговые агенты
 `loan_history`   | `Array:`[`Cubux.LoanHistory`][Cubux.LoanHistory] | Долговые операции
@@ -29,6 +30,8 @@
 `projects`       | `Array:`[`Cubux.Project`][Cubux.Project] | Проекты
 `receipt_positions` | `Array:`[`Cubux.ReceiptPosition`][Cubux.ReceiptPosition] | Позиции сканированных чеков
 `receipts`       | `Array:`[`Cubux.Receipt`][Cubux.Receipt] | Сканированные чеки
+`shop_items`     | `Array:`[`Cubux.ShopItem`][Cubux.ShopItem] | Позиции в списках покупок
+`shop_lists`     | `Array:`[`Cubux.ShopList`][Cubux.ShopList] | Списки покупок
 `subscription`   | `Array:`[`Cubux.TeamSubscription`][Cubux.TeamSubscription] | Статус подписки команды
 `targets`        | `Array:`[`Cubux.Target`][Cubux.Target] | Цели
 `targets_reserves` | `Array:`[`Cubux.TargetReserveTransaction`][Cubux.TargetReserveTransaction] | Транзакции резервов целей
@@ -43,6 +46,7 @@
 [Cubux.Budget]: ../team/budget.md
 [Cubux.Category]: ../team/category.md
 [Cubux.Draft]: ../team/draft.md
+[Cubux.Good]: ../team/good.md
 [Cubux.Image]: ../team/image.md
 [Cubux.LoanAgent]: ../team/loan-agent.md
 [Cubux.LoanHistory]: ../team/loan-history.md
@@ -53,6 +57,8 @@
 [Cubux.Project]: ../team/project.md
 [Cubux.ReceiptPosition]: ../team/receipt-position.md
 [Cubux.Receipt]: ../team/receipt.md
+[Cubux.ShopItem]: ../team/shop-item.md
+[Cubux.ShopList]: ../team/shop-list.md
 [Cubux.Sync.DataDiff]: data-diff.md
 [Cubux.Sync.DataPatch]: data-patch.md
 [Cubux.Sync.Data]: data.md
