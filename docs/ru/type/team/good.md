@@ -9,6 +9,7 @@
 `color`       | `color`      | Цвет маркера
 `image_uuid`  | `uuid`, NULL | UUID изображения [`Cubux.Image`][Cubux.Image]
 `is_favorite` | `boolean`    | Отмечен ли избранным
+`is_hidden`   | `boolean`    | Отмечен ли скрытым
 `name`        | `string`     | Название
 
 
