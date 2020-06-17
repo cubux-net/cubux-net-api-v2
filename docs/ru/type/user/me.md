@@ -8,6 +8,7 @@
 Поле | Тип | Описание
 ---- | --- | --------
 `mail` | `string` | E-mail
+`password` _(только запись)_ | `string` | Пароль
 `name` | `string` | Имя
 `family` | `string` | Фамилия
 `country_code` | `string(3)` | Код страны
