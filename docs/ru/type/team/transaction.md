@@ -18,29 +18,35 @@
 `account2_uuid` | `uuid`, NULL | UUID счёта зачисления для переводов
 `date` | `date` | Дата проведения
 `project_uuid` | `uuid`, NULL | UUID проекта [`Cubux.Project`][Cubux.Project]
+`image_uuid` | `uuid`, NULL | UUID изображения [`Cubux.Image`][Cubux.Image]
 `description` | `string` | Описание
-`link_type` | `enum("loan_history", "receipt", "target_reserve")`, NULL | Тип связанного объекта \*4)
-`link_uuid` | `uuid`, NULL | UUID связанного объекта \*4)
+`geo_lat` | `float`, NULL | Географическая широта \*2)
+`geo_lon` | `float`, NULL | Географическая долгота \*2)
+`link_type` | `enum("loan_history", "receipt", "target_reserve")`, NULL | Тип связанного объекта \*3)
+`link_uuid` | `uuid`, NULL | UUID связанного объекта \*3)
 `user_uuid` _(только чтение)_ | `uuid`, NULL | Пользователь, совершивший операцию
-`imported_data_uuid` | `uuid`, NULL | UUID связи с импортированной транзакцией \*3)
+`imported_data_uuid` | `uuid`, NULL | UUID связи с импортированной транзакцией \*4)
 `canUpdate` _(только чтение)_ | `boolean` | Наличие привилегий на изменение
 `canDelete` _(только чтение)_ | `boolean` | Наличие привилегий на удаление
-`is_imported` _(только чтение)_ | `boolean` | Является ли транзакция импортированной \*2)
-`can_join` _(только чтение)_  | `boolean` | Наличие прав на объединение в перевод \*3)
-`can_split` _(только чтение)_ | `boolean` | Наличие прав на объединение в перевод \*3)
+`is_imported` _(только чтение)_ | `boolean` | Является ли транзакция импортированной \*5)
+`can_join` _(только чтение)_  | `boolean` | Наличие прав на объединение в перевод \*4)
+`can_split` _(только чтение)_ | `boolean` | Наличие прав на объединение в перевод \*4)
 
 **\*1)** Остовная Валюта команды указана в данных о команде
 [`Cubux.TeamInfo`][Cubux.TeamInfo] в поле `default_currency_code`.
 
-**\*2)** У импортированных транзакций возможно лишь редактирование
-категории.
+**\*2)** Широта и долгота должны быть установлены вместе. Если хотя бы
+одно поле содержит `NULL`, то второе поле также устанавливается в `NULL`.
 
-**\*3)** Существует возможность объединить две транзакции прихода
+**\*3)** \[TBW]
+
+**\*4)** Существует возможность объединить две транзакции прихода
 и расхода в одну транзакцию перевода и разделить транзакцию перевода
 на приход и расход. \[TBW]
 См. также [`Cubux.TransferExtra`][Cubux.TransferExtra].
 
-**\*4)** \[TBW]
+**\*5)** У импортированных транзакций возможно лишь редактирование
+категории и проекта.
 
 
 #### Типы транзакций `type`
@@ -63,5 +69,6 @@
 
 [Cubux.Account]: account.md
 [Cubux.Project]: project.md
+[Cubux.Image]: image.md
 [Cubux.TeamInfo]: info.md
 [Cubux.TransferExtra]: transfer-extra.md
