@@ -14,6 +14,7 @@
     *   Все по алфавиту
         *   [`Cubux.Account`](team/account.md)
         *   [`Cubux.AccountAccess`](team/account-access.md)
+        *   [`Cubux.AttachImageOld`](upload/attach-image-old.md)
         *   [`Cubux.AUser`](a-user.md)
         *   [`Cubux.Bank`](global/bank.md)
         *   [`Cubux.Budget`](team/budget.md)
@@ -64,4 +65,5 @@
         *   [`Cubux.User`](user.md)
         *   [`Cubux.UserBacklog`](team/user-backlog.md)
         *   [`Cubux.UserMessage`](user/user-message.md)
+        *   [`Cubux.UserMessageTranslation`](user/user-message-translation.md)
         *   [`Cubux.ValidationError`](validation-error.md)
