@@ -17,7 +17,7 @@
 `currencies`     | `Array:`[`Cubux.Currency`][Cubux.Currency] | Валюты
 `currency_rates` | `Array:`[`Cubux.CurrencyRate`][Cubux.CurrencyRate] | Последние курсы валют
 `goods_suggestions` | `Array: string` | Подсказки для товаров в списках покупок. После изменений в запросе разницы будет приходить полный список, как единый неделимый объект
-`providers`      | `Array:`[`Cubux.Provider`][Cubux.Provider] | Поставщики данных реальных банков
+`providers` _(устаревшее)_ | `Array:`[`Cubux.Provider`][Cubux.Provider] | Поставщики данных реальных банков
 `target_pay_intervals` | `Array:`[`Cubux.TargetPayInterval`][Cubux.TargetPayInterval] | Интервалы для повтора Целей
 
 

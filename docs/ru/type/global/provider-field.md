@@ -1,6 +1,8 @@
 Тип `Cubux.ProviderField`
 =========================
 
+**УСТАРЕВШЕЕ**
+
 Объект со следующими полями:
 
 Поле             | Тип       | Описание
@@ -10,7 +12,7 @@
 `english_name`   | `string`  | Человекопонятное название на английском языке
 `localized_name` | `string`  | Человекопонятное название на языке страны, которой принадлежит провайдер
 `position`       | `int`     | Порядковый номер поля в форме
-`optional`       | `boolean` | Если `true`, то поле НЕобязательно для заполнения
+`optional`       | `boolean` | Если `true`, то поле необязательно для заполнения
 `options`        | `Array:`[`Cubux.ProviderFieldOption`][Cubux.ProviderFieldOption], NULL | Список вариантов для полей `select`
 
 

@@ -1,6 +1,8 @@
 Тип `Cubux.Provider`
 ====================
 
+**УСТАРЕВШЕЕ**
+
 Объект со следующими полями:
 
 Поле              | Тип             | Описание
@@ -12,7 +14,7 @@
 `home_url`        | `url`           | URL домашней страницы банка
 `instruction`     | `locale-string` | Текст, поясняющий пользователю, что нужно сделать, чтобы авторизовать приложение
 `interactive`     | `boolean`       | Требует ли провайдер интерактивного подтверждения для аутентификации
-`mode`            | `enum("api", "web", "oauth")` | Способ аутентификации (см. [варианты авторизации][provider-modes])
+`mode`            | `enum("api", "web", "oauth")` | Способ аутентификации
 `name`            | `string`        | Название на языке страны
 
 
@@ -27,4 +29,3 @@
 
 
 [Cubux.ProviderField]: provider-field.md
-[provider-modes]: ../../bank-integration/provider-modes.md
