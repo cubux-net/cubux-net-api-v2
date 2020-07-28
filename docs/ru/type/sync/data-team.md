@@ -15,7 +15,7 @@
 ---- | --- | --------
 `info`           | [`Cubux.TeamInfo`][Cubux.TeamInfo] | Информация о команде
 `accounts`       | `Array:`[`Cubux.Account`][Cubux.Account] | Счета
-`accounts_access` | `Array:`[`Cubux.AccountAccess`][Cubux.AccountAccess] | Правапользователей на счета
+`accounts_access` | `Array:`[`Cubux.AccountAccess`][Cubux.AccountAccess] | Права пользователей на счета
 `budgets`        | `Array:`[`Cubux.Budget`][Cubux.Budget] | Бюджет
 `categories`     | `Array:`[`Cubux.Category`][Cubux.Category] | Категории
 `drafts`         | `Array:`[`Cubux.Draft`][Cubux.Draft] | Чеки

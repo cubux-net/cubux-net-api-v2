@@ -18,4 +18,4 @@ _N_ единиц валюты `from_code` есть (_N_ * `coeff`) единиц 
                             from_code
 
 
-[валюты]: ../public/currency.md
+[валюты]: ../global/currency.md

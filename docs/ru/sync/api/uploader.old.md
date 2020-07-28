@@ -18,7 +18,7 @@ POST <context-url>/uploader
 Код | Тело | Описание
 --- | ---- | --------
 200 | [`Cubux.Upload.Params`][Cubux.Upload.Params] | Параметры для выполнения запросов [загрузки файлов][api-upload]
-422 | `Array:`[`Cubux.ValidationError`][Cubux.ValidationError] | Отправленые данные не соответствуют ожиданиям по вине разработчика клиента.
+422 | `Array:`[`Cubux.ValidationError`][Cubux.ValidationError] | Отправленные данные не соответствуют ожиданиям по вине разработчика клиента.
 
 Прочие коды ответов 4xx и 5xx должны обрабатываться согласно
 [спецификации HTTP][http]

@@ -9,7 +9,7 @@
 
 Поле              | Тип            | Описание
 ----------------- | -------------- | --------
-`objects`         | [`Cubux.Sync.GlobalData`][Cubux.Sync.GlobalData], [`Cubux.Sync.TeamData`][Cubux.Sync.TeamData], [`Cubux.Sync.UserData`][Cubux.Sync.UserData], NULL | Словарь обновленных и созданых объектов данного контекста
+`objects`         | [`Cubux.Sync.GlobalData`][Cubux.Sync.GlobalData], [`Cubux.Sync.TeamData`][Cubux.Sync.TeamData], [`Cubux.Sync.UserData`][Cubux.Sync.UserData], NULL | Словарь обновленных и созданных объектов данного контекста
 `deleted_objects` | `object`, NULL | Словарь удалений объектов данного контекста
 `serial`          | `uint64`, NULL | Произвольное число для нужд разработчика. Значение будет фигурировать в ответном [тикете][ticket] в поле `client_serial`.
 
@@ -20,7 +20,7 @@
 [`Cubux.Sync.DataDiff`][Cubux.Sync.DataDiff], который приходит в данных
 на [запрос разницы][api-diff].
 
-Однако, в отличае от [`Cubux.Sync.DataDiff`][Cubux.Sync.DataDiff],
+Однако в отличие от [`Cubux.Sync.DataDiff`][Cubux.Sync.DataDiff],
 удаление объектов с простым первичным ключом может передаваться как в
 виде простых значений, так и в виде объектов с единственным ключевым
 полем (в том числе и оба варианта сразу):

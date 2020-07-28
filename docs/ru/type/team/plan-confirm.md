@@ -9,7 +9,7 @@
 `account_uuid`  | `uuid`   | **Обязательно**. UUID счета [`Cubux.Account`][Cubux.Account]
 `amount`        | `float`  | **Обязательно**. Сумма операции в валюте счета
 `category_uuid` | `uuid`   | **Обязательно**. UUID категории [`Cubux.Category`][Cubux.Category]
-`date`          | `date`   | Дата операции. По умолчанию - некущая дата.
+`date`          | `date`   | Дата операции. По умолчанию - текущая дата.
 `description`   | `string` | Описание
 `type` | `enum("expense", "income")` | **Обязательно**. Тип операции.
 

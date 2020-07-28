@@ -10,7 +10,7 @@
     *   [Публичные данные](global/README.md)
     *   [Данные пользователя](user/README.md)
     *   [Данные команды](team/README.md)
-    *   [Загругка файлов](upload/README.md)
+    *   [Загрузка файлов](upload/README.md)
     *   Все по алфавиту
         *   [`Cubux.Account`](team/account.md)
         *   [`Cubux.AccountAccess`](team/account-access.md)
