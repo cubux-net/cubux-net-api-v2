@@ -22,6 +22,7 @@
     *   Устаревшая загрузка файлов:
         *   [Подготовка загрузки файлов](api/uploader.old.md)
         *   [Загрузка файла](api/upload.old.md)
+    *   [Применение промо кода](api/apply-promo-code.md)
     *   [Экспорт в Excel](api/export-xls.md)
 *   [Ограничения](20-limitations.md)
 *   [Классификация ошибок](30-errors.md)
