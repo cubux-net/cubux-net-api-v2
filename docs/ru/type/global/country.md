@@ -8,7 +8,8 @@
 **`code`** PK           | `string(3)`       | Код из трех буков по [ISO 3166-1 alpha-3][iso-country-3]
 `code2`                 | `string(2)`       | Код из двух буков по [ISO 3166-1 alpha-2][iso-country-2]
 `default_currency_code` | `string(3)`, NULL | Код основной валюты (см. [`Cubux.Currency`][Cubux.Currency])
-`flag`                  | `url`, NULL       | Ссылка на флаг
+`flag`                  | `url`, NULL       | Ссылка на растровый флаг (PNG, JPG, GIF)
+`flag_vector`           | `url`, NULL       | Ссылка на векторный флаг (SVG)
 `title`                 | `locale-string`   | Название
 
 
