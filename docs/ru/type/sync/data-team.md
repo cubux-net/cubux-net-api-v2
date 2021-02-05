@@ -16,7 +16,7 @@
 `info`           | [`Cubux.TeamInfo`][Cubux.TeamInfo] | Информация о команде
 `accounts`       | `Array:`[`Cubux.Account`][Cubux.Account] | Счета
 `accounts_access` | `Array:`[`Cubux.AccountAccess`][Cubux.AccountAccess] | Права пользователей на счета
-`budgets`        | `Array:`[`Cubux.Budget`][Cubux.Budget] | Бюджет
+_// новый бюджет будет позже_ | |
 `categories`     | `Array:`[`Cubux.Category`][Cubux.Category] | Категории
 `drafts`         | `Array:`[`Cubux.Draft`][Cubux.Draft] | Чеки
 `goods`          | `Array:`[`Cubux.Good`][Cubux.Good] | Справочник товаров для списка покупок
@@ -57,7 +57,6 @@
 [context-team]: ../../sync/context/team.md
 [Cubux.AccountAccess]: ../team/account-access.md
 [Cubux.Account]: ../team/account.md
-[Cubux.Budget]: ../team/budget.md
 [Cubux.Category]: ../team/category.md
 [Cubux.Draft]: ../team/draft.md
 [Cubux.Good]: ../team/good.md

@@ -17,7 +17,6 @@
         *   [`Cubux.AttachImageOld`](upload/attach-image-old.md)
         *   [`Cubux.AUser`](a-user.md)
         *   [`Cubux.Bank`](global/bank.md)
-        *   [`Cubux.Budget`](team/budget.md)
         *   [`Cubux.Category`](team/category.md)
         *   [`Cubux.Country`](global/country.md)
         *   [`Cubux.Currency`](global/currency.md)
