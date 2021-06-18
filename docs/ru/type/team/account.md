@@ -19,6 +19,7 @@
 `auth_uuid`      | `uuid`, NULL  | UUID счета [`Cubux.BankSync.AuthAccount`][Cubux.BankSync.AuthAccount] для связи с реальным банком
 `auth_login_uuid` | `uuid`, NULL | UUID логина [`Cubux.BankSync.AuthLogin`][Cubux.BankSync.AuthLogin] для связи с реальным банком
 `daily_refresh` _(только чтение)_  | `boolean`, NULL | Разрешено ли автоматическое обновление данных для синхронизации с реальным банком
+`user_refresh` _(только чтение)_  | `boolean`, NULL | Разрешено ли пользователю ручное обновление данных для синхронизации с реальным банком
 `is_sync_lost` _(только чтение)_ | `boolean` | Для счетов, связанными с реальными банками, значение `true` говорит о том, что связь утрачена (см. поле `sync_lost_reason`)
 `last_sync_date` _(только чтение)_ | `datetime`, NULL | Время последнего сеанса синхронизации с реальным банком
 `login_id` _(только чтение, устаревшее)_ | `uint64`, NULL   | ID Логина для синхронизации с реальным банком
