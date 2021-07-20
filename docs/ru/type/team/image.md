@@ -8,7 +8,7 @@
 Поле | Тип | Описание
 ---- | --- | --------
 **`uuid`** PK | `uuid`                   | UUID
-`purpose` | `enum("account", "category", "loan_agent", "draft", "good", "transaction", "target")` | Тип исходного объекта, для которого предназначено изображение
+`purpose` | `enum("account", "category", "credit", "loan_agent", "draft", "good", "transaction", "target")` | Тип исходного объекта, для которого предназначено изображение
 `size_type` | `enum("icon", "photo")`    | Тип размера (см. ниже)
 `created_at`| `datetime`                 | Дата и время создания
 `has_body` _(только чтение)_ | `boolean` | Загружено ли тело
@@ -25,5 +25,6 @@
 
 Для каждого типа объектов в `purpose` используется свой тип размера в `size_type`:
 
-*   `icon`: для типов `"account"`, `"category"`, `"loan_agent"` и `"target"`;
+*   `icon`: для типов `"account"`, `"category"`, `"credit"`,
+    `"loan_agent"` и `"target"`;
 *   `photo`: для типов `"draft"`, `"good"` и `"transaction"`.
