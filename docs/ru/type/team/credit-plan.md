@@ -11,11 +11,9 @@
 `credit_uuid` | `uuid`  | **Обязательно**. UUID кредита [`Cubux.Credit`][Cubux.Credit]. Не может быть изменён после создания.
 `date`        | `date`  | **Обязательно**. Дата
 `amount`      | `float` | **Обязательно**. Сумма
-`operation_uuid` | `uuid`, NULL | UUID операции [`Cubux.CreditOperation`][Cubux.CreditOperation].
 
-*   Пункт графика считается исполненным, если к нему привязана операция
-    [`Cubux.CreditOperation`][Cubux.CreditOperation] в поле
-    `operation_uuid`.
+*   Пункт графика считается исполненным, если к нему привязана хотя бы
+    одна операция [`Cubux.CreditOperation`][Cubux.CreditOperation].
 *   Сумма, оставшаяся к погашению, равна сумме по всем неисполненным
     пунктам графика.
 

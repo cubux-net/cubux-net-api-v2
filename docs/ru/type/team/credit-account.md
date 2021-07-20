@@ -12,6 +12,8 @@
 `account_uuid`  | `uuid`    | **Обязательно**. UUID счёта [`Cubux.Account`][Cubux.Account].
 `sort`          | `integer` | Порядковый номер для сортировки от `0` до `32767`.
 
+Валюта счёта должна совпадать с валютой кредита.
+
 
 [Cubux.Account]: ./account.md
 [Cubux.Credit]: ./credit.md
