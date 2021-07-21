@@ -24,6 +24,7 @@
         *   [`Cubux.BankSync.RequestInfo`](bank-sync/request-info.md)
         *   [`Cubux.Budget`](team/budget.md)
         *   [`Cubux.Category`](team/category.md)
+        *   [`Cubux.CryptExchanger`](global/crypt-exchanger.md)
         *   [`Cubux.Country`](global/country.md)
         *   [`Cubux.Currency`](global/currency.md)
         *   [`Cubux.CurrencyRate`](global/currency-rate.md)

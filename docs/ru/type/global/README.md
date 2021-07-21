@@ -6,6 +6,7 @@
 
 *   [`Cubux.Bank`](bank.md)
 *   [`Cubux.Country`](country.md)
+*   [`Cubux.CryptExchanger`](crypt-exchanger.md)
 *   [`Cubux.Currency`](currency.md)
 *   [`Cubux.CurrencyRate`](currency-rate.md)
 *   [`Cubux.Provider`](provider.md)
