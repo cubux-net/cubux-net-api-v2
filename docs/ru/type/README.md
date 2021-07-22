@@ -25,6 +25,7 @@
         *   [`Cubux.Budget`](team/budget.md)
         *   [`Cubux.Category`](team/category.md)
         *   [`Cubux.CryptExchanger`](global/crypt-exchanger.md)
+        *   [`Cubux.CryptExchangerRate`](global/crypt-exchanger-rate.md)
         *   [`Cubux.Country`](global/country.md)
         *   [`Cubux.Currency`](global/currency.md)
         *   [`Cubux.CurrencyRate`](global/currency-rate.md)
