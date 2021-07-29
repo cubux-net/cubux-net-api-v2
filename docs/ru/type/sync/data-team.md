@@ -16,12 +16,16 @@
 `info`           | [`Cubux.TeamInfo`][Cubux.TeamInfo] | Информация о команде
 `accounts`       | `Array:`[`Cubux.Account`][Cubux.Account] | Счета
 `accounts_access` | `Array:`[`Cubux.AccountAccess`][Cubux.AccountAccess] | Права пользователей на счета
+`account_operations` | `Array:`[`Cubux.AccountOperation`][Cubux.AccountOperation] | Операции по счетам
 `budgets`        | `Array:`[`Cubux.Budget`][Cubux.Budget] | Бюджет
 `categories`     | `Array:`[`Cubux.Category`][Cubux.Category] | Категории
 `credits`        | `Array:`[`Cubux.Credit`][Cubux.Credit] | Кредиты
 `credits_accounts` | `Array:`[`Cubux.CreditAccount`][Cubux.CreditAccount] | Связи кредитов со счетами для погашения
 `credits_operations` | `Array:`[`Cubux.CreditOperation`][Cubux.CreditOperation] | Операции по кредиту
 `credits_plans`  | `Array:`[`Cubux.CreditPlan`][Cubux.CreditPlan] | Пункты графиков погашения кредитов
+`crypt_accounts` | `Array:`[`Cubux.CryptAccount`][Cubux.CryptAccount] | Криптовалютные счета
+`crypt_account_operations` | `Array:`[`Cubux.CryptAccountOperation`][Cubux.CryptAccountOperation] | Операции по криптовалютным счетам
+`documents`      | `Array:`[`Cubux.Document`][Cubux.Document] | Документы
 `drafts`         | `Array:`[`Cubux.Draft`][Cubux.Draft] | Чеки
 `goods`          | `Array:`[`Cubux.Good`][Cubux.Good] | Справочник товаров для списка покупок
 `images`         | `Array:`[`Cubux.Image`][Cubux.Image] | Изображения
@@ -54,19 +58,24 @@
 *   `loan_history`
 *   `plans`
 *   `plans_confirms`
+*   `documents`
 *   `targets_reserves`
 *   `transactions`
 
 
 [context-team]: ../../sync/context/team.md
-[Cubux.AccountAccess]: ../team/account-access.md
 [Cubux.Account]: ../team/account.md
+[Cubux.AccountAccess]: ../team/account-access.md
+[Cubux.AccountOperation]: ../team/account-operation.md
 [Cubux.Budget]: ../team/budget.md
 [Cubux.Category]: ../team/category.md
 [Cubux.Credit]: ../team/credit.md
 [Cubux.CreditAccount]: ../team/credit-account.md
 [Cubux.CreditOperation]: ../team/credit-operation.md
 [Cubux.CreditPlan]: ../team/credit-plan.md
+[Cubux.CryptAccount]: ../team/crypt-account.md
+[Cubux.CryptAccountOperation]: ../team/crypt-account-operation.md
+[Cubux.Document]: ../team/document.md
 [Cubux.Draft]: ../team/draft.md
 [Cubux.Good]: ../team/good.md
 [Cubux.Image]: ../team/image.md
