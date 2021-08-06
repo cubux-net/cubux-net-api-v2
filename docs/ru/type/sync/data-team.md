@@ -16,7 +16,9 @@
 `info`           | [`Cubux.TeamInfo`][Cubux.TeamInfo] | Информация о команде
 `accounts`       | `Array:`[`Cubux.Account`][Cubux.Account] | Счета
 `accounts_access` | `Array:`[`Cubux.AccountAccess`][Cubux.AccountAccess] | Права пользователей на счета
-_// новый бюджет будет позже_ | |
+`budget_entries` | `Array:`[`Cubux.BudgetEntry`][Cubux.BudgetEntry] | Записи бюджета
+`budget_periods` | `Array:`[`Cubux.BudgetPeriod`][Cubux.BudgetPeriod] | Периоды бюджета
+`budget_period_categories` | `Array:`[`Cubux.BudgetPeriodCategory`][Cubux.BudgetPeriodCategory] | Суммы бюджета
 `categories`     | `Array:`[`Cubux.Category`][Cubux.Category] | Категории
 `credits`        | `Array:`[`Cubux.Credit`][Cubux.Credit] | Кредиты
 `credits_accounts` | `Array:`[`Cubux.CreditAccount`][Cubux.CreditAccount] | Связи кредитов со счетами для погашения
@@ -61,6 +63,9 @@ _// новый бюджет будет позже_ | |
 [context-team]: ../../sync/context/team.md
 [Cubux.AccountAccess]: ../team/account-access.md
 [Cubux.Account]: ../team/account.md
+[Cubux.BudgetEntry]: ../team/budget-entry.md
+[Cubux.BudgetPeriod]: ../team/budget-period.md
+[Cubux.BudgetPeriodCategory]: ../team/budget-period-category.md
 [Cubux.Category]: ../team/category.md
 [Cubux.Credit]: ../team/credit.md
 [Cubux.CreditAccount]: ../team/credit-account.md

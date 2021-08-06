@@ -6,6 +6,9 @@
 
 *   [`Cubux.Account`](account.md)
 *   [`Cubux.AccountAccess`](account-access.md)
+*   [`Cubux.BudgetEntry`](budget-entry.md)
+*   [`Cubux.BudgetPeriod`](budget-period.md)
+*   [`Cubux.BudgetPeriodCategory`](budget-period-category.md)
 *   [`Cubux.Category`](category.md)
 *   [`Cubux.Credit`](credit.md)
 *   [`Cubux.CreditAccount`](credit-account.md)
