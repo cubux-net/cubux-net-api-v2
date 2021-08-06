@@ -18,6 +18,10 @@
 `accounts_access` | `Array:`[`Cubux.AccountAccess`][Cubux.AccountAccess] | Права пользователей на счета
 _// новый бюджет будет позже_ | |
 `categories`     | `Array:`[`Cubux.Category`][Cubux.Category] | Категории
+`credits`        | `Array:`[`Cubux.Credit`][Cubux.Credit] | Кредиты
+`credits_accounts` | `Array:`[`Cubux.CreditAccount`][Cubux.CreditAccount] | Связи кредитов со счетами для погашения
+`credits_operations` | `Array:`[`Cubux.CreditOperation`][Cubux.CreditOperation] | Операции по кредиту
+`credits_plans`  | `Array:`[`Cubux.CreditPlan`][Cubux.CreditPlan] | Пункты графиков погашения кредитов
 `drafts`         | `Array:`[`Cubux.Draft`][Cubux.Draft] | Чеки
 `goods`          | `Array:`[`Cubux.Good`][Cubux.Good] | Справочник товаров для списка покупок
 `images`         | `Array:`[`Cubux.Image`][Cubux.Image] | Изображения
@@ -58,6 +62,10 @@ _// новый бюджет будет позже_ | |
 [Cubux.AccountAccess]: ../team/account-access.md
 [Cubux.Account]: ../team/account.md
 [Cubux.Category]: ../team/category.md
+[Cubux.Credit]: ../team/credit.md
+[Cubux.CreditAccount]: ../team/credit-account.md
+[Cubux.CreditOperation]: ../team/credit-operation.md
+[Cubux.CreditPlan]: ../team/credit-plan.md
 [Cubux.Draft]: ../team/draft.md
 [Cubux.Good]: ../team/good.md
 [Cubux.Image]: ../team/image.md
