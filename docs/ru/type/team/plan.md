@@ -11,6 +11,7 @@
 `category_uuid` | `uuid`    | **Обязательно**. UUID категории [`Cubux.Category`][Cubux.Category]
 `description`   | `string`  | Описание
 `need_confirm`  | `boolean` | Требует ли подтверждения пользователя для проведения
+`project_uuid` | `uuid`, NULL | UUID проекта [`Cubux.Project`][Cubux.Project]
 `type` | `enum("expense", "income")` | **Обязательно**. Тип операции.
 `when` | `Array: string` | **Обязательно**. Расписание повторов
 
@@ -28,3 +29,4 @@ _n_               | `31`     | Каждый месяц в указанное ч�
 
 [Cubux.Account]: account.md
 [Cubux.Category]: category.md
+[Cubux.Project]: project.md
