@@ -11,13 +11,8 @@
 `doc_uuid` | `uuid` | **Обязательно**. UUID документа [`Cubux.Document`][Cubux.Document]
 `side` | [`Cubux.OperationSide`][Cubux.OperationSide] | **Обязательно**. Направление операции
 `amount` | `decimal(.10)` | **Обязательно**. Сумма операции по счёту
-`currency_code` | `string(3)` | **Обязательно**. Валюта операции
-`native_amount` _(только чтение)_ | `decimal(.10)` | Сумма в Основной Валюте команды \*1)
+`crypt_currency_code` | `string(16)` | **Обязательно**. Криптовалюта операции [`Cubux.CryptCurrency`][Cubux.CryptCurrency]
 `crypt_account_uuid` | `uuid` | **Обязательно**. UUID Криптовалютного счёта [`Cubux.CryptAccount`][Cubux.CryptAccount]
-
-**\*1)** Основная Валюта команды указана в данных о команде
-[`Cubux.TeamInfo`][Cubux.TeamInfo] в поле `default_currency_code`. Сумма
-может быть меньше, чем минимальная градация соответствующей валюты.
 
 **Важно**: Поля `doc_uuid` и `side` не могут быть изменены после
 создания. Используйте вместо этого удаление старого документа и создание
@@ -36,6 +31,7 @@
 числа.
 
 
+[Cubux.CryptCurrency]: ../global/crypt-currency.md
 [Cubux.CryptAccount]: ./crypt-account.md
 [Cubux.Document]: ./document.md
 [Cubux.OperationSide]: ./operation-side.md
