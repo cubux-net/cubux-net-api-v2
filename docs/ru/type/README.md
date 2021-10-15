@@ -4,8 +4,8 @@
 Содержание
 ----------
 
-*   [Примитивные](primitive.md)
-*   Cubux.*
+* [Примитивные](primitive.md)
+* Cubux.*
     *   [Синхронизация](sync/README.md)
     *   [Публичные данные](global/README.md)
     *   [Данные пользователя](user/README.md)
@@ -27,6 +27,7 @@
         *   [`Cubux.Category`](team/category.md)
         *   [`Cubux.CryptAccount`](team/crypt-account.md)
         *   [`Cubux.CryptAccountOperation`](team/crypt-account-operation.md)
+        *   [`Cubux.CryptCurrency`](global/crypt-currency.md)
         *   [`Cubux.CryptExchanger`](global/crypt-exchanger.md)
         *   [`Cubux.CryptExchangerRate`](global/crypt-exchanger-rate.md)
         *   [`Cubux.Country`](global/country.md)

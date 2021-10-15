@@ -14,6 +14,7 @@
 ---- | --- | --------
 `banks`          | `Array:`[`Cubux.Bank`][Cubux.Bank] | Банки
 `countries`      | `Array:`[`Cubux.Country`][Cubux.Country] | Страны
+`crypt_currencies` | `Array:`[`Cubux.CryptCurrency`][Cubux.CryptCurrency] | Криптовалюты
 `crypt_exchangers` | `Array:`[`Cubux.CryptExchanger`][Cubux.CryptExchanger] | Биржи криптовалют
 `currencies`     | `Array:`[`Cubux.Currency`][Cubux.Currency] | Валюты
 `currency_rates` | `Array:`[`Cubux.CurrencyRate`][Cubux.CurrencyRate] | Последние курсы валют
