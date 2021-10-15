@@ -15,7 +15,6 @@
 `banks`          | `Array:`[`Cubux.Bank`][Cubux.Bank] | Банки
 `countries`      | `Array:`[`Cubux.Country`][Cubux.Country] | Страны
 `crypt_exchangers` | `Array:`[`Cubux.CryptExchanger`][Cubux.CryptExchanger] | Биржи криптовалют
-`crypt_exchangers_rates` | `Array:`[`Cubux.CryptExchangerRate`][Cubux.CryptExchangerRate] | Курсы обмена криптовалют
 `currencies`     | `Array:`[`Cubux.Currency`][Cubux.Currency] | Валюты
 `currency_rates` | `Array:`[`Cubux.CurrencyRate`][Cubux.CurrencyRate] | Последние курсы валют
 `goods_suggestions` | `Array: string` | Подсказки для товаров в списках покупок. После изменений в запросе разницы будет приходить полный список, как единый неделимый объект
@@ -27,7 +26,6 @@
 [Cubux.Bank]: ../global/bank.md
 [Cubux.Country]: ../global/country.md
 [Cubux.CryptExchanger]: ../global/crypt-exchanger.md
-[Cubux.CryptExchangerRate]: ../global/crypt-exchanger-rate.md
 [Cubux.Currency]: ../global/currency.md
 [Cubux.CurrencyRate]: ../global/currency-rate.md
 [Cubux.Provider]: ../global/provider.md
