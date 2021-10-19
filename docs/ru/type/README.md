@@ -26,6 +26,7 @@
         *   [`Cubux.Budget`](team/budget.md)
         *   [`Cubux.Category`](team/category.md)
         *   [`Cubux.CryptAccount`](team/crypt-account.md)
+        *   [`Cubux.CryptAccountAccess`](team/crypt-account-access.md)
         *   [`Cubux.CryptAccountOperation`](team/crypt-account-operation.md)
         *   [`Cubux.CryptCurrency`](global/crypt-currency.md)
         *   [`Cubux.CryptExchanger`](global/crypt-exchanger.md)

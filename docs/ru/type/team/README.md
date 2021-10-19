@@ -10,6 +10,7 @@
 *   [`Cubux.Budget`](budget.md)
 *   [`Cubux.Category`](category.md)
 *   [`Cubux.CryptAccount`](crypt-account.md)
+*   [`Cubux.CryptAccountAccess`](crypt-account-access.md)
 *   [`Cubux.CryptAccountOperation`](crypt-account-operation.md)
 *   [`Cubux.Document`](document.md)
 *   [`Cubux.Draft`](draft.md)

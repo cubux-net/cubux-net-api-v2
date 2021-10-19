@@ -24,6 +24,7 @@
 `credits_operations` | `Array:`[`Cubux.CreditOperation`][Cubux.CreditOperation] | Операции по кредиту
 `credits_plans`  | `Array:`[`Cubux.CreditPlan`][Cubux.CreditPlan] | Пункты графиков погашения кредитов
 `crypt_accounts` | `Array:`[`Cubux.CryptAccount`][Cubux.CryptAccount] | Криптовалютные счета
+`crypt_accounts_access` | `Array:`[`Cubux.CryptAccountAccess`][Cubux.CryptAccountAccess] | Права пользователей на криптовалютные счета
 `crypt_account_operations` | `Array:`[`Cubux.CryptAccountOperation`][Cubux.CryptAccountOperation] | Операции по криптовалютным счетам
 `documents`      | `Array:`[`Cubux.Document`][Cubux.Document] | Документы
 `drafts`         | `Array:`[`Cubux.Draft`][Cubux.Draft] | Чеки
@@ -74,6 +75,7 @@
 [Cubux.CreditOperation]: ../team/credit-operation.md
 [Cubux.CreditPlan]: ../team/credit-plan.md
 [Cubux.CryptAccount]: ../team/crypt-account.md
+[Cubux.CryptAccountAccess]: ../team/crypt-account-access.md
 [Cubux.CryptAccountOperation]: ../team/crypt-account-operation.md
 [Cubux.Document]: ../team/document.md
 [Cubux.Draft]: ../team/draft.md
