@@ -11,7 +11,7 @@
 `doc_uuid` | `uuid` | **Обязательно**. UUID документа [`Cubux.Document`][Cubux.Document]
 `side` | [`Cubux.OperationSide`][Cubux.OperationSide] | **Обязательно**. Направление операции
 `amount` | `decimal(.10)` | **Обязательно**. Сумма операции по счёту
-`crypt_currency_code` | `string(16)` | **Обязательно**. Криптовалюта операции [`Cubux.CryptCurrency`][Cubux.CryptCurrency]
+`crypt_currency_code` | `string` | **Обязательно**. Криптовалюта операции [`Cubux.CryptCurrency`][Cubux.CryptCurrency]
 `crypt_account_uuid` | `uuid` | **Обязательно**. UUID Криптовалютного счёта [`Cubux.CryptAccount`][Cubux.CryptAccount]
 
 **Важно**: Поля `doc_uuid` и `side` не могут быть изменены после

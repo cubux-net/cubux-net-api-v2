@@ -9,8 +9,8 @@
 ---- | --- | --------
 **`uuid`** PK    | `uuid`       | UUID
 `name`           | `string`     | **Обязательно**. Название
-`crypt_currency_code` | `string(16)` | **Обязательно**. Криптовалюта [`Cubux.CryptCurrency`][Cubux.CryptCurrency]
-`display_currency_code` | `string(16)`, NULL | Валюта для отображения баланса. Может быть как код криптовалюты [`Cubux.CryptCurrency`][Cubux.CryptCurrency], так и обычной валюты [`Cubux.Currency`][Cubux.Currency].
+`crypt_currency_code` | `string` | **Обязательно**. Криптовалюта [`Cubux.CryptCurrency`][Cubux.CryptCurrency]
+`display_currency_code` | `string`, NULL | Валюта для отображения баланса. Может быть как код криптовалюты [`Cubux.CryptCurrency`][Cubux.CryptCurrency], так и обычной валюты [`Cubux.Currency`][Cubux.Currency].
 `exchanger_uuid` | `uuid`, NULL | UUID биржи [`Cubux.CryptExchanger`][Cubux.CryptExchanger] для отображения баланса по курсу
 `sort`           | `int`        | Порядковый номер для сортировки от 0 до 32767. Рекомендуется использовать шаг больше 1 для более удобной вставки между соседями. Например: 10, 20, 30, ... или 100, 200, 300, ... Перенумерация соседей при изменении не обязательна, но уместна.
 `icon_name`      | `string`     | Имя иконки. Максимум 32 символа.
