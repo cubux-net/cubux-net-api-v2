@@ -6,6 +6,7 @@
 
 *   [`Cubux.Account`](account.md)
 *   [`Cubux.AccountAccess`](account-access.md)
+*   [`Cubux.AccountGroup`](account-group.md)
 *   [`Cubux.Budget`](budget.md)
 *   [`Cubux.Category`](category.md)
 *   [`Cubux.Credit`](credit.md)
