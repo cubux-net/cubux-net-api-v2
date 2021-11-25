@@ -15,6 +15,7 @@
     *   Все по алфавиту
         *   [`Cubux.Account`](team/account.md)
         *   [`Cubux.AccountAccess`](team/account-access.md)
+        *   [`Cubux.AccountGroup`](team/account-group.md)
         *   [`Cubux.AttachImageOld`](upload/attach-image-old.md)
         *   [`Cubux.AUser`](a-user.md)
         *   [`Cubux.Bank`](global/bank.md)
