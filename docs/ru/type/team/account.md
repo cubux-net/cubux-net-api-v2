@@ -17,6 +17,7 @@
 `sort`           | `integer`     | Порядковый номер для сортировки. Произвольные числа. Рекомендуется использовать шаг больше 1 для более удобной вставки между соседями. Например: 10, 20, 30, ... или 100, 200, 300, ... Перенумерация соседей при изменении не обязательна, но уместна.
 `icon_name`      | `string`      | Имя иконки. Максимум 32 символа.
 `icon_uuid`      | `uuid`, NULL  | UUID иконки [`Cubux.Image`][Cubux.Image]
+`group_uuid`     | `uuid`, NULL  | UUID [`Cubux.AccountGroup`][Cubux.AccountGroup] для группировки
 `is_hidden`      | `boolean`     | Счет скрыт
 `is_excluded`    | `boolean`     | Счет не учитывается в общем остатке команды
 `is_locked` _(только чтение)_ | `boolean` | Счет блокирован (см. ниже)
@@ -54,6 +55,7 @@
 реальные операции.
 
 
+[Cubux.AccountGroup]: account-group.md
 [Cubux.Image]: image.md
 [Cubux.BankSync.AuthAccount]: ../bank-sync/auth-account.md
 [Cubux.BankSync.AuthLogin]: ../bank-sync/auth-login.md
