@@ -25,6 +25,6 @@
 
 Для каждого типа объектов в `purpose` используется свой тип размера в `size_type`:
 
-*   `icon`: для типов `"account"`, `"category"`, `"credit"`,
-    `"crypt_account"`, `"loan_agent"` и `"target"`;
-*   `photo`: для типов `"draft"`, `"good"` и `"transaction"`.
+* `icon`: для типов `"account"`, `"budget_entry"`, `"category"`,
+  `"credit"`, `"crypt_account"`, `"loan_agent"` и `"target"`;
+* `photo`: для типов `"draft"`, `"good"` и `"transaction"`.

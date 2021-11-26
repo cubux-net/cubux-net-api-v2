@@ -3,7 +3,7 @@
 
 .                 | .
 ----------------- | --------------------------------
-Базовый адрес API | `/api/v2/sync/team/<uuid-команды>`
+Базовый адрес API | `/api/v3/sync/team/<uuid-команды>`
 Словарь объектов  | [`Cubux.Sync.TeamData`][Cubux.Sync.TeamData]
 
 **ВАЖНО:** Требуется авторизация токеном с [разрешением][scopes]:
@@ -24,7 +24,7 @@
 
 Для удаления команды необходимо отправить удаление объекта `info`:
 
-    POST /api/v2/sync/team/c811e6cf-12db-4cd6-893f-c43227e1b723 HTTP/1.1
+    POST /api/v3/sync/team/c811e6cf-12db-4cd6-893f-c43227e1b723 HTTP/1.1
     Host: app.cubux.net
     Authorization: Bearer 617babbbee3cbe4ee28e8c440d405be3c39ea2bd
     Content-Type: application/json; charset=UTF-8

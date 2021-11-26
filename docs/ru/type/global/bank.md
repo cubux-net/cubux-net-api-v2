@@ -8,7 +8,6 @@
 **`uuid`** PK  | `uuid`       | UUID
 `name`         | `string`     | Название
 `country_code` | `string(3)`  | Код страны [`Cubux.Country`][Cubux.Country] из поля `code`
-`provider_id` _(устаревшее)_ | `uint`, NULL | ID провайдера [`Cubux.Provider`][Cubux.Provider] для связи с реальным банком
 `handler_name` | `string`, NULL | Имя провайдера для синхронизации счёта с банком (см. ниже)
 `logo`         | `url`, NULL  | Ссылка на растровый логотип (PNG, JPG, GIF)
 `logo_vector`  | `url`, NULL  | Ссылка на векторный логотип (SVG)
@@ -22,12 +21,6 @@
 настроить связь с соответствующим реальным банком.
 См. [Связь с реальными банками][bank-integration].
 
-#### Устаревшая синхронизация с банком
-
-**Важно**: этот способ синхронизации больше не работает. Значение поля
-`provider_id` не используется.
-
 
 [Cubux.Country]: country.md
-[Cubux.Provider]: provider.md
 [bank-integration]: ../../bank-integration/README.md
