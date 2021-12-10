@@ -11,10 +11,10 @@
 `type` | `enum("credit", "debit")` | **Обязательно**. Направление операции. `"credit"` — движение от Агента к Команде. `"debit"` — от Команды к Агенту.
 `agent_uuid`        | `uuid`       | **Обязательно**. UUID долгового агента [`Cubux.LoanAgent`][Cubux.LoanAgent]
 `amount`            | `decimal(.10)` | **Обязательно**. Сумма, которую отдал (или получил) Агент
-`currency_code`     | `string(3)`  | **Обязательно**. Валюта для Суммы Агента \*1)
+`currency_code`     | `string(16)` | **Обязательно**. Валюта для Суммы Агента \*1)
 `account_uuid`      | `uuid`, NULL | UUID счета, на который поступили (или с которого списаны) средства
 `account_amount`    | `decimal(.10)` | **Обязательно**. Сумма, поступившая или списанная с указанного Счета \*2)
-`account_currency_code` | `string` | **Обязательно**. Валюта суммы, поступившей на Счёт \*2)
+`account_currency_code` | `string(16)` | **Обязательно**. Валюта суммы, поступившей на Счёт \*2)
 `deal_uuid` _(только чтение)_ | `uuid`, NULL | UUID транзакции [`Cubux.Transaction`][Cubux.Transaction]
 `description`       | `string`     | Описание
 `date`              | `date`       | Дата операции

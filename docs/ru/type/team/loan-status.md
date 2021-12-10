@@ -9,7 +9,7 @@
 Поле | Тип | Описание
 ---- | --- | --------
 **`agent_uuid`** PK | `uuid` | UUID агента [`Cubux.LoanAgent`][Cubux.LoanAgent]
-**`currency_code`** PK | `string(3)` | Код валюты
+**`currency_code`** PK | `string(16)` | Код валюты
 `comment` | `string` | Комментарий
 `deadline` | `date`, NULL | Дата, указывающая срок возврата долга
 `notice_before_days` | `uint16`, NULL | Напомнить за указанное количество дней до срока возврата `deadline`
