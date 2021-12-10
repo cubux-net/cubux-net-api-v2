@@ -9,11 +9,11 @@
 `type` | `enum("plus", "minus", "transfer", "initial", "initial_loan")` | **Обязательно**. Тип транзакции
 `account_uuid` | `uuid` | **Обязательно**. UUID счёта. Используется всеми типами транзакций
 `currency_code` | `string(3)` | Валюта операции
-`amount` | `float` | **Обязательно**. Сумма операции в валюте `currency_code`
-`amount_native` _(только чтение)_ | `float` | Сумма в Основной Валюте команды \*1)
+`amount` | `decimal(.10)` | **Обязательно**. Сумма операции в валюте `currency_code`
+`amount_native` _(только чтение)_ | `decimal(.10)` | Сумма в Основной Валюте команды \*1)
 `category_uuid` | `uuid` | **Обязательно**. UUID категории
-`amount2` | `float`, NULL | Сумма зачисления для транзакций переводов (`type` = `transfer`).
-`amount2_native` _(только чтение)_ | `float`, NULL | Сумма зачисления `amount` в Основной Валюте команды \*1)
+`amount2` | `decimal(.10)`, NULL | Сумма зачисления для транзакций переводов (`type` = `transfer`).
+`amount2_native` _(только чтение)_ | `decimal(.10)`, NULL | Сумма зачисления `amount` в Основной Валюте команды \*1)
 `currency_code2` | `string(3)` | Валюта суммы зачисления `amount2` для переводов
 `account2_uuid` | `uuid`, NULL | UUID счёта зачисления для переводов
 `date` | `date` | Дата проведения

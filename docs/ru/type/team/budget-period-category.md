@@ -7,7 +7,7 @@
 ---- | --- | --------
 **`period_uuid`** PK   | `uuid` | UUID [`Cubux.BudgetPeriod`][Cubux.BudgetPeriod]
 **`category_uuid`** PK | `uuid` | UUID Категории
-`amount`  | `float` | Сумма
+`amount`       | `decimal(.10)` | Сумма
 
 
 [Cubux.BudgetPeriod]:./budget-period.md

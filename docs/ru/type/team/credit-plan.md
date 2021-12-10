@@ -10,7 +10,7 @@
 **`uuid`** PK | `uuid`  | UUID
 `credit_uuid` | `uuid`  | **Обязательно**. UUID кредита [`Cubux.Credit`][Cubux.Credit]. Не может быть изменён после создания.
 `date`        | `date`  | **Обязательно**. Дата
-`amount`      | `float` | **Обязательно**. Сумма
+`amount` | `decimal(.10)` | **Обязательно**. Сумма
 
 *   Пункт графика считается исполненным, если к нему привязана хотя бы
     одна операция [`Cubux.CreditOperation`][Cubux.CreditOperation].
