@@ -2,7 +2,7 @@
 =================
 
 ```
-GET /api/v2/crypto/exchange-rate
+GET /api/v4/crypto/exchange-rate
 ```
 
 В параметрах запроса допустимы следующие поля для фильтрации результата:
