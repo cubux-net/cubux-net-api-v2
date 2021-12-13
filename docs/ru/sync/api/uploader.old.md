@@ -28,7 +28,7 @@ POST <context-url>/uploader
 
 Подготовка загрузки чеков в конкретную команду:
 
-    POST /api/v3/sync/team/ea30ef9d-dc5c-4a48-9325-a005145307ee/uploader HTTP/1.1
+    POST /api/v4/sync/team/ea30ef9d-dc5c-4a48-9325-a005145307ee/uploader HTTP/1.1
     Host: app.cubux.net
     Authorization: Bearer bd21026244e41a126d69f15ea9d1ac76579f69e3
     Content-Type: application/json; charset=UTF-8
