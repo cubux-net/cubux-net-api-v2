@@ -8,8 +8,8 @@
 Поле             | Тип            | Описание
 ---------------- | -------------- | --------
 `exchanger_uuid` | `uuid`         | UUID биржи [`Cubux.CryptExchanger`][Cubux.CryptExchanger]
-`from_code`      | `string`       | Код исходной криптовалюты [`Cubux.CryptCurrency`][Cubux.CryptCurrency]
-`to_code`        | `string`       | Код целевой криптовалюты [`Cubux.CryptCurrency`][Cubux.CryptCurrency]
+`from_code`      | `string`       | Код исходной криптовалюты [`Cubux.Currency`][Cubux.Currency]
+`to_code`        | `string`       | Код целевой криптовалюты [`Cubux.Currency`][Cubux.Currency]
 `coeff`          | `float`        | Отношение целевой валюты к исходной
 `time`           | `timestamp-ms` | Время формирования отношения
 
@@ -21,5 +21,5 @@ _N_ единиц валюты `from_code` есть (_N_ * `coeff`) единиц 
                             from_code
 
 
-[Cubux.CryptCurrency]: ../global/crypt-currency.md
+[Cubux.Currency]: ../global/currency.md
 [Cubux.CryptExchanger]: ./crypt-exchanger.md

@@ -17,7 +17,6 @@
 `accounts`       | `Array:`[`Cubux.Account`][Cubux.Account] | Счета
 `accounts_access` | `Array:`[`Cubux.AccountAccess`][Cubux.AccountAccess] | Права пользователей на счета
 `accounts_groups` | `Array:`[`Cubux.AccountGroup`][Cubux.AccountGroup] | Группы для счетов
-`account_operations` | `Array:`[`Cubux.AccountOperation`][Cubux.AccountOperation] | Операции по счетам
 `budget_entries` | `Array:`[`Cubux.BudgetEntry`][Cubux.BudgetEntry] | Записи бюджета
 `budget_periods` | `Array:`[`Cubux.BudgetPeriod`][Cubux.BudgetPeriod] | Периоды бюджета
 `budget_period_categories` | `Array:`[`Cubux.BudgetPeriodCategory`][Cubux.BudgetPeriodCategory] | Суммы бюджета
@@ -26,10 +25,7 @@
 `credits_accounts` | `Array:`[`Cubux.CreditAccount`][Cubux.CreditAccount] | Связи кредитов со счетами для погашения
 `credits_operations` | `Array:`[`Cubux.CreditOperation`][Cubux.CreditOperation] | Операции по кредиту
 `credits_plans`  | `Array:`[`Cubux.CreditPlan`][Cubux.CreditPlan] | Пункты графиков погашения кредитов
-`crypt_accounts` | `Array:`[`Cubux.CryptAccount`][Cubux.CryptAccount] | Криптовалютные счета
-`crypt_accounts_access` | `Array:`[`Cubux.CryptAccountAccess`][Cubux.CryptAccountAccess] | Права пользователей на криптовалютные счета
-`crypt_account_operations` | `Array:`[`Cubux.CryptAccountOperation`][Cubux.CryptAccountOperation] | Операции по криптовалютным счетам
-`documents`      | `Array:`[`Cubux.Document`][Cubux.Document] | Документы
+`crypt_account_display` | `Array:`[`Cubux.CryptAccountDisplay`][Cubux.CryptAccountDisplay] | Отображение балансов криптовалютных счетов по курсам бирж
 `drafts`         | `Array:`[`Cubux.Draft`][Cubux.Draft] | Чеки
 `goods`          | `Array:`[`Cubux.Good`][Cubux.Good] | Справочник товаров для списка покупок
 `images`         | `Array:`[`Cubux.Image`][Cubux.Image] | Изображения
@@ -62,7 +58,6 @@
 *   `loan_history`
 *   `plans`
 *   `plans_confirms`
-*   `documents`
 *   `targets_reserves`
 *   `transactions`
 
@@ -71,7 +66,6 @@
 [Cubux.Account]: ../team/account.md
 [Cubux.AccountAccess]: ../team/account-access.md
 [Cubux.AccountGroup]: ../team/account-group.md
-[Cubux.AccountOperation]: ../team/account-operation.md
 [Cubux.BudgetEntry]: ../team/budget-entry.md
 [Cubux.BudgetPeriod]: ../team/budget-period.md
 [Cubux.BudgetPeriodCategory]: ../team/budget-period-category.md
@@ -80,10 +74,7 @@
 [Cubux.CreditAccount]: ../team/credit-account.md
 [Cubux.CreditOperation]: ../team/credit-operation.md
 [Cubux.CreditPlan]: ../team/credit-plan.md
-[Cubux.CryptAccount]: ../team/crypt-account.md
-[Cubux.CryptAccountAccess]: ../team/crypt-account-access.md
-[Cubux.CryptAccountOperation]: ../team/crypt-account-operation.md
-[Cubux.Document]: ../team/document.md
+[Cubux.CryptAccountDisplay]: ../team/crypt-account-display.md
 [Cubux.Draft]: ../team/draft.md
 [Cubux.Good]: ../team/good.md
 [Cubux.Image]: ../team/image.md
