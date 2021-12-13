@@ -16,6 +16,7 @@ GET /api/v2/bank/auth/init/<handler_name>
 Поле   | Тип | Описание
 ------ | --- | --------
 `type` | `enum("form", "oauth")` | Способ аутентификации
+`supportFetchSince` | `boolean` | Поддерживается ли дата начала `fetch_since`
 ... | | остальные поля, см. далее
 
 ### `type: "form"`

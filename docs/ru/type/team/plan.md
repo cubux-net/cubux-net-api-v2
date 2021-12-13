@@ -7,7 +7,7 @@
 ---- | --- | --------
 **`uuid`** PK   | `uuid`    | UUID
 `account_uuid`  | `uuid`    | **Обязательно**. UUID счета [`Cubux.Account`][Cubux.Account]
-`amount`        | `float`   | **Обязательно**. Сумма операции в валюте счета
+`amount`   | `decimal(.10)` | **Обязательно**. Сумма операции в валюте счета
 `category_uuid` | `uuid`    | **Обязательно**. UUID категории [`Cubux.Category`][Cubux.Category]
 `description`   | `string`  | Описание
 `need_confirm`  | `boolean` | Требует ли подтверждения пользователя для проведения
