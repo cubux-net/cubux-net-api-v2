@@ -65,16 +65,16 @@ GET /api/v2/crypto/exchange-rate?filter=[
 {
   "items": [
     {
-      "exchanger_uuid": "ac5bec9d-235a-4869-9c57-600c3928a13e",
-      "from_code": "BTC",
-      "to_code": "USDT",
+      "x_uuid": "ac5bec9d-235a-4869-9c57-600c3928a13e",
+      "from": "BTC",
+      "to": "USDT",
       "coeff": 62620.93,
       "time": 1634618387604
     },
     {
-      "exchanger_uuid": "ac5bec9d-235a-4869-9c57-600c3928a13e",
-      "from_code": "ETH",
-      "to_code": "EUR",
+      "x_uuid": "ac5bec9d-235a-4869-9c57-600c3928a13e",
+      "from": "ETH",
+      "to": "EUR",
       "coeff": 3293.83,
       "time": 1634618387604
     }

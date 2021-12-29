@@ -5,20 +5,19 @@
 
 Объект со следующими полями:
 
-Поле             | Тип            | Описание
----------------- | -------------- | --------
-`exchanger_uuid` | `uuid`         | UUID биржи [`Cubux.CryptExchanger`][Cubux.CryptExchanger]
-`from_code`      | `string`       | Код исходной криптовалюты [`Cubux.Currency`][Cubux.Currency]
-`to_code`        | `string`       | Код целевой криптовалюты [`Cubux.Currency`][Cubux.Currency]
-`coeff`          | `float`        | Отношение целевой валюты к исходной
-`time`           | `timestamp-ms` | Время формирования отношения
+Поле     | Тип            | Описание
+-------- | -------------- | --------
+`x_uuid` | `uuid`         | UUID биржи [`Cubux.CryptExchanger`][Cubux.CryptExchanger]
+`from`   | `string`       | Код исходной валюты [`Cubux.Currency`][Cubux.Currency]
+`to`     | `string`       | Код целевой валюты [`Cubux.Currency`][Cubux.Currency]
+`coeff`  | `float`        | Отношение целевой валюты к исходной
+`time`   | `timestamp-ms` | Время формирования отношения
 
-_N_ единиц валюты `from_code` есть (_N_ * `coeff`) единиц валюты
-`to_code`:
+_N_ единиц валюты `from` есть (_N_ * `coeff`) единиц валюты `to`:
 
-                             to_code
-    N [from_code] * coeff [ --------- ] = M [to_code]
-                            from_code
+                        to
+    N [from] * coeff [ ---- ] = M [to]
+                       from
 
 
 [Cubux.Currency]: ../global/currency.md
