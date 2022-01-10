@@ -48,7 +48,7 @@ GET /api/v4/crypto/exchange-rate
 (переносы добавлены для читабельности)
 
 ```
-GET /api/v2/crypto/exchange-rate?filter=[
+GET /api/v4/crypto/exchange-rate?filter=[
       {
         "uuid": "ac5bec9d-235a-4869-9c57-600c3928a13e",
         "pairs": [
