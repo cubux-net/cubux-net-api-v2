@@ -21,5 +21,9 @@
 `icon_name`     | `string`    | Имя иконки. Максимум 32 символа.
 `is_hidden`     | `boolean`   | Скрытый
 
+**Важно:** Создание кредита с Криптовалютой должно увеличивать
+[`Cubux.TeamInfo.min_ver`][Cubux.TeamInfo.min_ver] до `4`.
+
 
 [Cubux.Image]: image.md
+[Cubux.TeamInfo.min_ver]: info.md#min_ver

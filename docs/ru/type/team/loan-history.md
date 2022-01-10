@@ -29,6 +29,11 @@
 на Счёт фактически поступило 623.17 RUB (`account_amount` = `623.17`,
 `account_currency_code` = `"RUB"`).
 
+**Важно:** Если изменение затрагивает Криптовалюту, то
+[`Cubux.TeamInfo.min_ver`][Cubux.TeamInfo.min_ver] должно увеличиваться
+до `4`.
+
 
 [Cubux.LoanAgent]: loan-agent.md
 [Cubux.Transaction]: transaction.md
+[Cubux.TeamInfo.min_ver]: info.md#min_ver
