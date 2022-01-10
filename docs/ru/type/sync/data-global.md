@@ -14,14 +14,16 @@
 ---- | --- | --------
 `banks`          | `Array:`[`Cubux.Bank`][Cubux.Bank] | Банки
 `countries`      | `Array:`[`Cubux.Country`][Cubux.Country] | Страны
+`crypt_exchangers` | `Array:`[`Cubux.CryptExchanger`][Cubux.CryptExchanger] | Биржи криптовалют
 `currencies`     | `Array:`[`Cubux.Currency`][Cubux.Currency] | Валюты
-`currency_rates` | `Array:`[`Cubux.CurrencyRate`][Cubux.CurrencyRate] | Последние курсы валют
+`currency_rates` | `Array:`[`Cubux.CurrencyRate`][Cubux.CurrencyRate] | Последние курсы фиатных валют
 `goods_suggestions` | `Array: string` | Подсказки для товаров в списках покупок. После изменений в запросе разницы будет приходить полный список, как единый неделимый объект
 
 
 [context-global]: ../../sync/context/global.md
 [Cubux.Bank]: ../global/bank.md
 [Cubux.Country]: ../global/country.md
+[Cubux.CryptExchanger]: ../global/crypt-exchanger.md
 [Cubux.Currency]: ../global/currency.md
 [Cubux.CurrencyRate]: ../global/currency-rate.md
 [Cubux.Sync.Data]: data.md

@@ -34,6 +34,9 @@
 `sync_error_class` _(только чтение)_ | `string`, NULL | Для счетов, связанными с реальными банками, тип ошибки для на стороне нашего АПИ.
 `sync_error_message` _(только чтение)_ | `string`, NULL | Для счетов, связанными с реальными банками, сообщение об ошибке. Может содержать текст ошибки, принятый из АПИ банка.
 
+**Важно:** Создание счёта с Криптовалютой должно увеличивать
+[`Cubux.TeamInfo.min_ver`][Cubux.TeamInfo.min_ver] до `4`.
+
 **Замечание:** Управлять счетами могут только Администраторы команды.
 
 Код причины утраты связи `sync_lost_reason` может иметь следующие значения:
@@ -59,3 +62,4 @@
 [Cubux.Image]: image.md
 [Cubux.BankSync.AuthAccount]: ../bank-sync/auth-account.md
 [Cubux.BankSync.AuthLogin]: ../bank-sync/auth-login.md
+[Cubux.TeamInfo.min_ver]: info.md#min_ver

@@ -15,6 +15,7 @@
 *   [`Cubux.CreditAccount`](credit-account.md)
 *   [`Cubux.CreditOperation`](credit-operation.md)
 *   [`Cubux.CreditPlan`](credit-plan.md)
+*   [`Cubux.CryptAccountDisplay`](crypt-account-display.md)
 *   [`Cubux.Draft`](draft.md)
 *   [`Cubux.Good`](good.md)
 *   [`Cubux.Image`](image.md)

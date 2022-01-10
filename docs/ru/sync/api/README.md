@@ -31,8 +31,12 @@ API запросы синхронизации
 Прочее
 -------
 
-*   [Применение промо кода](apply-promo-code.md)
-*   [Экспорт в Excel](export-xls.md)
+
+*   Публичные данные
+    *   [Курсы криптовалют](crypt-exchange-rate.md)
+*   Команда
+    *   [Применение промо кода](apply-promo-code.md)
+    *   [Экспорт в Excel](export-xls.md)
 
 
 [context]: ../02-context.md

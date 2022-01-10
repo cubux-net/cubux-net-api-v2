@@ -25,6 +25,7 @@
 `credits_accounts` | `Array:`[`Cubux.CreditAccount`][Cubux.CreditAccount] | Связи кредитов со счетами для погашения
 `credits_operations` | `Array:`[`Cubux.CreditOperation`][Cubux.CreditOperation] | Операции по кредиту
 `credits_plans`  | `Array:`[`Cubux.CreditPlan`][Cubux.CreditPlan] | Пункты графиков погашения кредитов
+`crypt_account_display` | `Array:`[`Cubux.CryptAccountDisplay`][Cubux.CryptAccountDisplay] | Отображение балансов криптовалютных счетов по курсам бирж
 `drafts`         | `Array:`[`Cubux.Draft`][Cubux.Draft] | Чеки
 `goods`          | `Array:`[`Cubux.Good`][Cubux.Good] | Справочник товаров для списка покупок
 `images`         | `Array:`[`Cubux.Image`][Cubux.Image] | Изображения
@@ -73,6 +74,7 @@
 [Cubux.CreditAccount]: ../team/credit-account.md
 [Cubux.CreditOperation]: ../team/credit-operation.md
 [Cubux.CreditPlan]: ../team/credit-plan.md
+[Cubux.CryptAccountDisplay]: ../team/crypt-account-display.md
 [Cubux.Draft]: ../team/draft.md
 [Cubux.Good]: ../team/good.md
 [Cubux.Image]: ../team/image.md

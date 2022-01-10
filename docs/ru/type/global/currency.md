@@ -12,6 +12,13 @@
 `postfix` _(устаревшее)_ | `string(3)`, NULL | Суффикс для форматирования суммы
 `symbol`      | `string(3)`, NULL | Символ валюты
 `title`       | `locale-string`   | Название валюты
+`type`        | `uint16`          | Тип валюты. См. ниже.
+
+### Тип валюты `type`
+
+* 0 — фиатная;
+* 1 — криптовалюта, ошибочно созданная как фиатная.
+* 2 — криптовалюта.
 
 
 [iso-currency-code]: https://en.wikipedia.org/wiki/ISO_4217 "ISO 4217 alpha-3"
