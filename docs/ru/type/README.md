@@ -8,6 +8,7 @@
 *   Cubux.*
     *   [Синхронизация](sync/README.md)
     *   [Публичные данные](global/README.md)
+    *   [Данные платформы](platform/README.md)
     *   [Данные пользователя](user/README.md)
     *   [Данные команды](team/README.md)
     *   [Загрузка файлов](upload/README.md)

@@ -19,3 +19,5 @@
 [context-platform]: ../../sync/context/platform.md
 [Cubux.PushParsePule]: ../platform/push-parse-rule.md
 [Cubux.PushStdPattern]: ../platform/push-std-pattern.md
+[Cubux.Sync.Data]: data.md
+[Cubux.Sync.DataDiff]: data-diff.md
