@@ -7,6 +7,7 @@
 *   [Введение](01-intro.md)
 *   [Контекст данных](02-context.md)
     *   [Публичные](context/global.md)
+    *   [Платформы](context/platform.md)
     *   [Личные](context/user.md)
     *   [Командные](context/team.md)
 *   [Сценарии сеансов синхронизации](03-scenarios.md)

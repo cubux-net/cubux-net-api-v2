@@ -12,5 +12,6 @@
 *   [`Cubux.Sync.DataPatch`](./data-patch.md) Набор изменений для отправки
 *   Контексты данных
     *   [`Cubux.Sync.GlobalData`](./data-global.md) Публичные данные
+    *   [`Cubux.Sync.PlatformData`](./data-platform.md) Данные платформы
     *   [`Cubux.Sync.UserData`](./data-user.md) Данные пользователя
     *   [`Cubux.Sync.TeamData`](./data-team.md) Данные команды
