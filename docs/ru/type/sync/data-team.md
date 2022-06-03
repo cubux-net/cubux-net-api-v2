@@ -17,6 +17,7 @@
 `accounts`       | `Array:`[`Cubux.Account`][Cubux.Account] | Счета
 `accounts_access` | `Array:`[`Cubux.AccountAccess`][Cubux.AccountAccess] | Права пользователей на счета
 `accounts_groups` | `Array:`[`Cubux.AccountGroup`][Cubux.AccountGroup] | Группы для счетов
+`accounts_mentions` | `Array:`[`Cubux.AccountMention`][Cubux.AccountMention] | Упоминания счетов в уведомлениях
 `budget_entries` | `Array:`[`Cubux.BudgetEntry`][Cubux.BudgetEntry] | Записи бюджета
 `budget_periods` | `Array:`[`Cubux.BudgetPeriod`][Cubux.BudgetPeriod] | Периоды бюджета
 `budget_period_categories` | `Array:`[`Cubux.BudgetPeriodCategory`][Cubux.BudgetPeriodCategory] | Суммы бюджета
@@ -65,6 +66,7 @@
 [Cubux.Account]: ../team/account.md
 [Cubux.AccountAccess]: ../team/account-access.md
 [Cubux.AccountGroup]: ../team/account-group.md
+[Cubux.AccountMention]: ../team/account-mention.md
 [Cubux.BudgetEntry]: ../team/budget-entry.md
 [Cubux.BudgetPeriod]: ../team/budget-period.md
 [Cubux.BudgetPeriodCategory]: ../team/budget-period-category.md
